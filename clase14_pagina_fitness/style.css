@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+}
+
+.container{
+    font-family: "Montserrat", sans-serif;
+}
+
+/* MODULO1 */
+
+.hijo1_mod1{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    height: 30px;
+    padding: 15px;
+    color: gray;
+    border-bottom: 2px solid rgb(158, 158, 158);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.hijo2_mod1{
+    color: rgb(20, 20, 163);
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hijo3_mod1{
+    height: 700px;
+    background-image: url(img/fondo1.png);
+    background-size: cover;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont_h2{
+    border: 3px solid rgb(255, 0, 191);
+    padding: 10px;
+}
+
+.menu_mod1{
+    display: flex;
+    gap: 50px;
+}
+
+.txt_h3_mod3{
+    width: 600px;
+    text-align: center;
+    color: white;
+}
+
+.linea p{
+    margin: 0;
+    padding: 0px;
+}
+
+.img_mod1{
+    margin-top: 130px;
+}
+
+.boton_mod1{
+    color: rgb(255, 0, 191);
+    background-color: rgb(20, 20, 163);
+    font-size: 25px;
+    border: none;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 80px;
+    letter-spacing: 4px;
+}
+
+/* MODULO2 */
+
+.modulo2{
+    background-image: url(img/fondo2.jpg);
+    height: 2062px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hijo1_mod2{
+    display: flex;
+    justify-content: center;
+}
+
+.hijo2_mod2{
+    display: flex;
+    justify-content: center;
+}
+
+.step1{
+    width: 400px;
+    padding: 80px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img_step1{
+    background-image: url(img/fondo3.png);
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px rgb(129, 129, 129);
+}
+
+.step_titulos{
+    letter-spacing: 5px;
+    font-size: 35px;
+    color: rgb(17, 17, 139);
+    margin-top: 20px;
+}
+
+.linea2 p{
+    color: rgb(255, 0, 191);
+    margin: 0;
+    padding: 0px;
+}
+
+.boton_step1{
+    color: rgb(255, 0, 191);
+    background-color: rgb(17, 17, 139);
+    font-size: 20px;
+    border: none;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+    letter-spacing: 4px;
+}
+
+/*MODULO3*/
+
+.modulo3{
+    background-image: url(img/fondo3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 2250px;
+}
+
+.contenido1_mod3{
+    height: 700px;
+    display: flex;
+    justify-content: start;
+}
+
+.contenido2_mod3{
+    height: 700px;
+    display: flex;
+    justify-content: end;
+    flex-direction: row-reverse;
+}
+
+.contenido3_mod3{
+    height: 700px;
+    display: flex;
+    justify-content: start;
+}
+
+.imagen1_mod3{
+    height: 650px;
+    background-image: url(img/fondo3.png);
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px rgb(129, 129, 129);
+}
+
+.txt1_mod3 h1{
+    color: rgb(255, 0, 191);
+    font-size: 150px;
+}
+
+.txt2_mod3 h1{
+    color: rgb(255, 0, 191);
+    font-size: 150px;
+}
+
+.txt1_mod3{
+    margin-left: 80px;
+    margin-top: 160px;
+}
+
+.txt2_mod3{
+    margin-right: 80px;
+    margin-top: 160px;
+    text-align: end;
+}
+
+/*MODULO4*/
+
+.modulo4{
+    background-image: url(img/fondo1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pagina_web{
+    color: rgb(255, 0, 191);
+    background-color: rgb(17, 17, 139);
+    font-size: 20px;
+    width: 500px;
+    height: 50px;
+    border: none;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    letter-spacing: 4px;
+    position: relative;
+    top: -35px;
+}
+
+.txt_mod4{
+    width: 800px;
+    text-align: center;
+}
+
+.txt_mod4 h1{
+    color: rgb(17, 17, 139);
+    font-size: 40px;
+    margin-top: 80px;
+}
+
+.txt_mod4 p{
+    margin-top: 20px;
+    color: white;
+    font-size: 23px;
+}
+
+.textField{
+    width: 1100px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.textField input{
+    width: 400px;
+    height: 40px;
+}
+
+.textField button{
+    color: rgb(255, 0, 191);
+    background-color: rgb(17, 17, 139);
+    font-size: 20px;
+    border: none;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    letter-spacing: 4px;
+}
+
+.iconos{
+    color: rgb(17, 17, 139);
+    font-size: 25px;
+    margin-top: 110px;
+    display: flex;
+}

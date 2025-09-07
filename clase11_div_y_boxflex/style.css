@@ -1,0 +1,163 @@
+.container{
+    padding: 50px;
+    width: 1000px;
+}
+
+.hijo1{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.hijo2{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+/*MODULO1_H1..........................................*/
+.modulo1_hijo1{
+    border: 3px solid black;
+    width: 190px;
+    height: 260px;
+}
+
+.cu1_h1_cuadro1_mod1{
+    border: 3px solid black;
+    width: 60px;
+    height: 80px;
+}
+
+.cu2_h1_cuadro1_mod1{
+    border: 3px solid black;
+    width: 60px;
+    height: 80px;
+}
+
+.cu3_h2_cuadro2_mod1{
+    border: 3px solid black;
+    width: 60px;
+    height: 80px;
+}
+
+.cu4_h2_cuadro2_mod1{
+    border: 3px solid black;
+    width: 60px;
+    height: 80px;
+}
+
+.h1_cuadro1_mod1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.h2_cuadro2_mod1{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+/*MODULO2_H1..........................................*/
+.modulo2_hijo1{
+    border: 3px solid black;
+    width: 160px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadro1_mod2, .cuadro2_mod2, .cuadro3_mod2{
+    border: 3px solid black;
+    width: 50px;
+    height: 30px;
+    margin: 10px;
+}
+
+/*MODULO3_H1..........................................*/
+.modulo3_hijo1{
+    border: 3px solid black;
+    width: 340px;
+    height: 210px;
+    margin: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rect_peq_cu1, .rect_peq_cu2, .rect_peq_cu3{
+    border: 3px solid black;
+    width: 80px;
+    height: 20px;
+    margin: 10px;
+}
+
+.rect_gran_cu1, .rect_gran_cu3{
+    border: 3px solid black;
+    width: 80px;
+    height: 150px;
+    margin: 10px;
+}
+
+.cuadro2_mod3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*MODULO4_H2..........................................*/
+.modulo4_hijo2{
+    border: 3px solid black;
+    width: 490px;
+    height: 170px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cu1_mod4{
+    border: 3px solid black;
+    width: 90px;
+    height: 60px;
+}
+
+.cu2_mod4{
+    border: 3px solid black;
+    width: 150px;
+    height: 100px;
+}
+
+/*MODULO5_H2..........................................*/
+.modulo5_hijo2{
+    border: 3px solid black;
+    width: 490px;
+    height: 170px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cu1_gran_mod5, .cu2_gran_mod5, .cu3_gran_mod5{
+    border: 3px solid black;
+    width: 60px;
+    height: 80px;
+    margin: 10px;
+}
+
+.cu1_peq_mod5, .cu2_peq_mod5, .cu3_peq_mod5{
+    border: 3px solid black;
+    width: 60px;
+    height: 15px;
+    margin: 10px;
+}
+
+.modulo5_hijo2 .cu3_gran_mod5, .cu3_peq_mod5{
+    margin-left: 50px;
+}
+
+.modulo5_hijo2 .cu2_gran_mod5, .cu2_peq_mod5{
+    margin-left: 20px;
+}

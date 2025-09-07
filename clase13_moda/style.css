@@ -1,0 +1,451 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* MODULO1 */
+.modulo1 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.barra {
+    background-color: #2C2C2C;
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+}
+
+.letra {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.hijo1_mod1 {
+    background-image: url(img/back_mod1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1000px;
+    color: white;
+    display: flex;
+    align-items: end;
+}
+
+.cont_mod1 h1 {
+    font-size: 130px;
+}
+
+.cont_mod1 {
+    width: 880px;
+    font-size: 30px;
+    margin: 100px;
+    margin-bottom: 120px;
+}
+
+.boton_mod1 {
+    background-color: #FF630C;
+    border: none;
+    color: white;
+    font-size: 20px;
+    width: 270px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* MODULO2 */
+.contenedor2 {
+    height: 900px;
+    background-color: #ff630c;
+    background-image: url(img/puntos.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.titulo2 {
+    color: white;
+    /* font-family: ; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.txttitulo2 {
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.txt2 {
+    font-size: 20px;
+    text-align: center;
+    width: 500px;
+}
+
+.imgs2 {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.american {
+    background-color: #2c2c2c;
+    width: 350px;
+    /* font-size: ; */
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.asian {
+    background-color: #2c2c2c;
+    width: 350px;
+    /* font-size: ; */
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.australia {
+    background-color: #2c2c2c;
+    width: 350px;
+    /* font-size: ; */
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.american p,
+.asian p,
+.australia p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+/* MODULO3 */
+.Modulo3 {
+    background-image: url(img/back_mod3.png);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-color: rgb(44, 44, 44);
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Modulo3-1 {
+    /* border: 1px solid red; */
+    width: 50%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Titulo3-1 {
+    width: 50%;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.Parrafo3-1 {
+    width: 70%;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+}
+
+.Modulo3-2 {
+    /* border: 1px solid red; */
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.M3-div1 {
+    /* border: 1px solid red; */
+    background-color: rgb(255, 99, 11);
+    width: 22%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.M3-titulo {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.M3-Parrafo {
+    color: white;
+    width: 267px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.M3-Button {
+    background-color: rgb(44, 44, 44);
+    border-radius: 4px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    font-size: 18px;
+    color: white;
+}
+
+/* modulo4 */
+.modulo4 {
+    background-color: #ff6300;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 1200px;
+}
+
+
+.texto {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 50px;
+    font-size: 30px;
+    color: white;
+    margin-top: 70px;
+}
+
+.foto1 {
+    width: 52%;
+}
+
+.boton1 {
+    background-color: #1e1e1e;
+    width: 200px;
+    height: 50px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+/* modulo5 */
+.modulo5 {
+    background-color: #ff6300;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 1200px;
+}
+
+.foto2 {
+    width: 51%;
+}
+
+.texto {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 50px;
+    font-size: 30px;
+    color: white;
+    margin-top: 70px;
+
+}
+
+.boton2 {
+    background-color: #1e1e1e;
+    width: 200px;
+    height: 50px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+/* modulo6 */
+.modulo6{
+    background-color: #2C2C2C;
+    margin: 0;
+    padding: 60px;
+    height: 800px;
+    font-size: 30px;
+}
+.contenedor6 {
+    display: flex;
+    justify-content: center;
+    font-size: 40;
+    color: aliceblue;
+    margin-top: 200px;
+    font-family: "Open Sans", sans-serif;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor61 {
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    color: aliceblue;
+    font-family: "open sans", sans-serif;
+    margin-top: 200px;
+
+}
+
+.width {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+/* modulo7 */
+.modulo7{
+    height: 1500px;
+    background-image: url(img/back_mod7.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont_mod7{
+    text-align: center;
+    width: 1200px;
+}
+
+.cont_mod7 h2{
+    font-size: 60px;
+    margin-top: 50px;
+}
+
+.cont_mod7 p{
+    font-size: 50px;
+}
+
+/* modulo8 */
+.modulo8{
+    height: 600px;
+    background-image: url(img/back_mod8.png);
+    background-size: cover;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto_mod8{
+    width: 1000px;
+}
+
+.texto_mod8 p{
+    margin-top: 40px;
+}
+
+.text_boton_mod8{
+    margin-top: 40px;
+    display: flex;
+}
+
+.textField_mod8 input{
+    border: none;
+    width: 500px;
+    height: 50px;
+}
+
+.boton_mod8 button{
+    border: none;
+    width: 200px;
+    height: 52px;
+    font-size: 20px;
+    background-color: #2C2C2C;
+    color: white;
+}
+
+.textField_mod8 input{
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+/* modulo9 */
+.modulo9{
+    height: 450px;
+    background-color: #2C2C2C;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cont1_mod9{
+    width: 600px;
+    margin-right: 100px;
+}
+
+.texto_cont1 p{
+    margin-top: 30px;
+}
+
+.iconos_mod9{
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+.texto_cont2 h2{
+    margin-bottom: 30px;
+}
+
+.texto_cont2 p{
+    margin-bottom: 10px;
+}
+
+.cont4_mod9{
+    padding-bottom: 70px;
+}
+
+
+/* .instagram_mod9{
+    background-image: url(img/instagram.png);
+}
+
+.facebook_mod9{
+    background-image: url(img/facebook.png);
+}
+
+.twitter_mod9{
+    background-image: url(img/twitter.png);
+}
+
+.whatsapp_mod9{
+    background-image: url(img/whatsApp.png);
+} */

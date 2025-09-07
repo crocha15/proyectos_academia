@@ -1,0 +1,485 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.modulo1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /*overflow: auto;*/
+    width: 100%;
+    height: 100px;
+    background-color: #EAAE00;
+}
+
+.modulo2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*overflow: auto;*/
+    width: 100%;
+    height: 700px;
+    background-color: #FFC400;
+}
+
+.modulo3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*overflow: auto;*/
+    width: 100%;
+    height: 700px;
+    background-color: white;
+}
+
+.modulo4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 90px;
+    /*overflow: auto;*/
+    width: 100%;
+    height: 900px;
+    background-color: #FFC400;
+}
+
+.modulo5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    /*overflow: auto;*/
+    width: 100%;
+    height: 600px;
+    background-color: white;
+}
+
+.modulo6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 90px;
+    /*overflow: auto;*/
+    width: 100%;
+    height: 850px;
+    background-color: #FFC400;
+}
+
+.modulo7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 90px;
+    /*overflow: auto;*/
+    width: 100%;
+    height: 900px;
+    background-color: white;
+}
+
+.modulo8 {
+    background-image: url(img/back_mod8.png);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+.modulo9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+    /*overflow: auto;*/
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+}
+
+.modulo10{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    font-size: 23px;
+    background-color: #2F302F;
+    color: white;
+}
+
+
+/*MODULO1..........................................................................*/
+
+.menu {
+    font-size: 30px;
+}
+
+.menu a {
+    margin-left: 40px;
+}
+
+.search-box input[type="text"] {
+    background-color: #FFC400;
+    color: white;
+    border: none;
+    padding: 12px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.search-box input::placeholder {
+    color: white;
+}
+
+.search-box button {
+    background-image: url(img/boton_buscar.png);
+    border: none;
+    padding: 25px 30px 16px;
+    cursor: pointer;
+    margin: 0px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+/*MODULO2..........................................................................*/
+
+.div_1 {
+    font-size: 30px;
+    color: white;
+    width: 550px;
+}
+
+.div_2 {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.boton1_mod2 {
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 17px 27px;
+    color: white;
+    background-color: #00BECB;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton2_mod2 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 15px 25px;
+    color: white;
+    background-color: #FFC400;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*MODULO3..........................................................................*/
+
+.div1_mod3 {
+    font-size: 30px;
+    color: black;
+    width: 550px;
+}
+
+.div2_mod3 {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.boton1_mod3 {
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 17px 27px;
+    color: white;
+    background-color: #FFC400;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*MODULO4..........................................................................*/
+
+.hijo2_mod4 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.div1_mod4 {
+    font-size: 28px;
+    color: white;
+    width: 800px;
+    text-align: center;
+}
+
+.div2_mod4,
+.div3_mod4,
+.div4_mod4 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    width: 360px;
+}
+
+/*MODULO5..........................................................................*/
+
+.div1_mod5 {
+    font-size: 30px;
+    color: black;
+    width: 550px;
+    text-align: end;
+}
+
+.div2_mod5 {
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.boton1_mod5 {
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 17px 27px;
+    color: white;
+    background-color: #FFC400;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*MODULO6..........................................................................*/
+
+.hijo2_mod6 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.div1_mod6 {
+    font-size: 28px;
+    color: white;
+    width: 800px;
+    text-align: center;
+}
+
+.div1_mod6 h1 {
+    margin-bottom: 20px;
+}
+
+.div2_mod6,
+.div3_mod6,
+.div4_mod6 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    width: 360px;
+}
+
+.div2_mod6 h2,
+button {
+    margin-top: 20px;
+}
+
+.div2_mod6 button {
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px 30px;
+    color: white;
+    background-color: #00BECB;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.div3_mod6 h2,
+button {
+    margin-top: 20px;
+}
+
+.div3_mod6 button {
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px 30px;
+    color: white;
+    background-color: #00BECB;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.div4_mod6 h2,
+button {
+    margin-top: 20px;
+}
+
+.div4_mod6 button {
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px 30px;
+    color: white;
+    background-color: #00BECB;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/*MODULO7..........................................................................*/
+
+.hijo2_mod7 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.div1_mod7 {
+    font-size: 28px;
+    color: black;
+    width: 800px;
+    text-align: center;
+}
+
+.div1_mod7 h1 {
+    margin-bottom: 20px;
+}
+
+.div2_mod7,
+.div3_mod7,
+.div4_mod7 {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    width: 360px;
+}
+
+.div2_mod7 h2,
+.iconos {
+    margin-top: 20px;
+}
+
+.div3_mod7 h2,
+.iconos {
+    margin-top: 20px;
+}
+
+.div4_mod7 h2,
+.iconos {
+    margin-top: 20px;
+}
+
+.iconos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/*MODULO8..........................................................................*/
+
+.hijo1_mod8 img {
+    margin-bottom: 30px;
+}
+
+/*MODULO9..........................................................................*/
+.hijo2_mod9 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.div1_mod9 {
+    font-size: 28px;
+    color: black;
+    width: 800px;
+    text-align: center;
+}
+
+.div1_mod9 h1 {
+    margin-bottom: 20px;
+}
+
+.div2_mod9,
+.div3_mod9,
+.div4_mod9 {
+    border: 2px solid lightgrey;
+    text-align: start;
+    color: black;
+    font-size: 19px;
+    width: 361px;
+    height: 670px;
+    box-shadow: 10px 10px 30px rgba(73, 72, 72, 0.3);
+}
+
+.div2_mod9 h3{
+    margin-top: 10px;
+    margin: 20px;
+}
+
+.div3_mod9 h3, p, a{
+    margin-top: 10px;
+    margin: 20px;
+}
+
+.div4_mod9 h3, p, a{
+    margin-top: 10px;
+    margin: 20px;
+}
+
+/*MODULO10..........................................................................*/
+
+.hijo1_mod10 p, .hijo2_mod10 p{
+    margin-left: 0px;
+}
+
+.hijo3_mod10{
+    text-align: end;
+}
+
+.hijo3_mod10 p{
+    margin-right: 0px;
+}
+
+.cont_boton{
+    display: flex;
+    justify-content: end;
+    align-items: start;
+}
+
+.boton_mod10 button{
+    background-image: url(img/img_envio.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+    padding-right: 100px;
+    margin: 0;
+    border: none;
+    margin-top: 2px;
+}
+
+.input_mod10 input{
+    background-color: #FFC400;
+    width: 500px;
+    height: 78px;
+}
+
+.iconos2 {
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    margin-top: 20px;
+}
+
