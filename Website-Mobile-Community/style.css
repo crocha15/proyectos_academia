@@ -168,7 +168,7 @@
 
 .modulo3{
     background-color: white;
-    height: 1500px;
+    /* height: 1500px; */
     display: flex;
     margin: 0;
 }
@@ -176,7 +176,7 @@
 .cont_mod3{
     background-color: #0F1320;
     width: 1400px;
-    height: 1500px;
+    /* height: 1500px; */
     border-radius: 0px 270px 0px 0px;
 }
 
@@ -223,3 +223,10 @@
     border-radius: 20px;
     box-shadow: 0px 5px 10px #171b29;
 }
+
+/* modulo4 */
+
+.modulo4{
+    margin: 0;
+}
+
