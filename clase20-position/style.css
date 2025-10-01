@@ -13,12 +13,16 @@
 }
 
 .red{
-    height: 200px;
-    width: 200px;
+    height: 50px;
+    width: 50px;
     background: red;
     position: absolute;
-    top: 100px;
-    left: 100px;
+    bottom: 10px;
+    left: 50px;
+    top: 30px;
+    /* top: 50px; */
+    /* top: 100px;
+    left: 100px; */
 }
 
 .gris{
@@ -86,7 +90,7 @@
 
 .caja1{
     background: red;
-    z-index: 3;
+    z-index: 1;
 }
 
 .caja2{
@@ -100,5 +104,5 @@
     background: yellow;
     top: 70px;
     left: 70px;
-    z-index: 1;
+    z-index: 3;
 }

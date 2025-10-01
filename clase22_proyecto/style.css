@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.container-fluid{
+    background: #19191B;
+    color: white;
+    background-image: url(img/img_fondo_mod1.png);
+    background-repeat: no-repeat;
+}
+
+body {
+    font-family: 'Graphik Trial', sans-serif;
+}
+
+/* modulo1 */
+
+.barra {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+    color: #FFFFFFB2;
+}
+
+.btn_contact {
+    width: 140px;
+    height: 43px;
+    color: #FFFFFFB2;
+    border-radius: 5px;
+    background: none;
+    border: 2px solid #FFFFFFB2;
+}
+
+.cuadros_mod1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+.cu1_mod1 {
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.cu1_mod1 h1{
+    font-size: 60px;
+    line-height: 1.1;
+}
+
+.cu1_mod1 p{
+    line-height: 2;
+}
+
+
+.btn_services {
+    background: #5454D4;
+    width: 170px;
+    height: 48px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    font-size: 18px;
+    border: none;
+    border-radius: 3px;
+}
+
+/* modulo2 */
+
+.modulo2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding-bottom: 50px;
+}
+
+.txt_mod2{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-left: 30px;
+}
+
+.txt1_mod2{
+    width: 520px;
+    height: 140px;
+    font-size: 23px;
+}
+
+.txt2_mod2{
+    padding-top: 10px;
+    width: 480px;
+    height: 140px;
+    color: #FFFFFFB2;
+    font-size: 15px;
+}
+
+/* modulo3 */
+
+.modulo3{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.txt_mod3{
+    width: 640px;
+    height: 140px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.triangulo1{
+    position: absolute;
+    z-index: 2;
+    left: 240px;
+}
+
+.triangulo2{
+    position: absolute;
+    z-index: 1;
+    left: 245px;
+    top: 70px;
+}
+
+.add{
+    position: absolute;
+    z-index: 3;
+    right: 120px;
+    top: 120px;
+}
+
+.rect1_mod3{
+    display: flex;
+    gap: 60px;
+    margin-top: 30px;
+}
+
+.rect2_mod3{
+    display: flex;
+    gap: 60px;
+    margin-top: 20px;
+}
+
+.cu1_mod3{
+    width: 270px;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cu1_mod3 p{
+    color: #FFFFFFB2;
+}
+
+/* modulo4 */
+
+.cu2_mod4{
+    padding-top: 60px;
+}
+
+.cu3_mod4{
+    padding-top: 120px;
+}
+
+.modulo4{
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.add2{
+    position: absolute;
+    z-index: 1;
+    top: -20px;
+    left: -10px;
+}
+
+.cir1{
+    position: absolute;
+    z-index: 3;
+    top: 90px;
+    right: 50px;
+}
+
+.cir2{
+    position: absolute;
+    z-index: 2;
+    top: 105px;
+    right: 35px;
+}
+
+/* modulo5 */
+
+.modulo5{
+    background-color: #1E1E2080;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    position: relative;
+}
+
+
+.txt_mod5 h1{
+    font-size: 50px;
+}
+
+.txt_mod5{
+    margin-top: 200px;
+    margin-right: 150px;
+}
+
+.btn_services{
+    margin-right: 50px;
+}
+
+.add3{
+    position: absolute;
+    z-index: 1;
+    top: 5px;
+    right: 200px;
+}
+
+.cir3{
+    position: absolute;
+    z-index: 3;
+    bottom: 70px;
+    left: 165px;
+}
+
+.cir4{
+    position: absolute;
+    z-index: 2;
+    bottom: 50px;
+    left: 180px;
+}
+
+/* modulo6 */
+
+.menu2 {
+    display: flex;
+    gap: 40px;
+    color: #FFFFFFB2;
+}
+
+.derechos{
+    color: #FFFFFFB2;
+    font-size: 12px;
+}
+

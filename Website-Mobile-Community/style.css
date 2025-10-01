@@ -393,6 +393,21 @@
     display: flex;
     gap: 20px;
     margin-top: 50px;
+    position: relative;
+}
+
+.verde {
+    position: absolute;
+    z-index: 2;
+    top: 100px;
+    left: 327px;
+}
+
+.amarillo {
+    position: absolute;
+    z-index: 3;
+    top: 100px;
+    right: 328px;
 }
 
 .cu1_mod5,
@@ -404,19 +419,26 @@
     width: 350px;
     height: 200px;
     border-radius: 25px;
-    /* text-align: center; */
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .numero {
     font-size: 10px;
+    position: absolute;
+    z-index: 1;
+    top: 15px;
+    left: 15px;
 }
 
 .texto {
+    width: 200px;
     font-size: 14px;
+
 }
 
 .cu2_mod5 {
@@ -474,10 +496,17 @@
     display: none;
 }
 
+.menu_barra {
+    display: none;
+}
+
+.menu_barra_cont {
+    display: none;
+}
 
 /* media queries IPHONE */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 320px) {
 
     * {
         margin: 0;
@@ -487,6 +516,37 @@
 
     .menu {
         display: none;
+    }
+
+    .barra {
+        padding-top: 150px;
+        position: relative;
+    }
+
+    .menu_barra {
+        display: block;
+        position: absolute;
+        z-index: 1;
+        top: 80px;
+        right: 450px;
+    }
+
+    .menu_barra_cont {
+        box-sizing: border-box;
+        display: block;
+        width: 800px;
+        height: 700px;
+        font-size: 70px;
+        background: rgb(67, 67, 88);
+        color: white;
+        text-align: center;
+        padding: 40px;
+        border-radius: 50px;
+    }
+
+    hr{
+        font-size: 100px;
+        color: white;
     }
 
     .botones_sing {
@@ -849,7 +909,10 @@
         flex-direction: column;
         gap: 15px;
         margin-top: 50px;
+
     }
+
+
 
     .cu2_mod5 {
         margin-top: 0px;
@@ -869,13 +932,18 @@
         justify-content: center;
         align-items: center;
         padding: 30px;
+        position: relative;
     }
+
+
 
     .numero {
         font-size: 30px;
         color: #6F7179;
-        margin-right: 620px;
-        margin-bottom: 30px;
+        position: absolute;
+        z-index: 1;
+        top: 15px;
+        left: 15px;
     }
 
     .texto {
