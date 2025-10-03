@@ -1,35 +1,35 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    
+}
+
+body{
+    background: #19191B;
 }
 
 .container-fluid{
     background: #19191B;
+    font-family: 'Graphik Trial', sans-serif;
     color: white;
     background-image: url(img/img_fondo_mod1.png);
     background-repeat: no-repeat;
 }
 
-body {
-    font-family: 'Graphik Trial', sans-serif;
-}
-
 /* modulo1 */
 
-.barra {
+/* .barra {
     height: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 50px;
-}
+} */
 
-.menu {
+/* .menu {
     display: flex;
     gap: 40px;
     color: #FFFFFFB2;
-}
+} */
 
 .btn_contact {
     width: 140px;
@@ -40,20 +40,20 @@ body {
     border: 2px solid #FFFFFFB2;
 }
 
-.cuadros_mod1 {
+/* .cuadros_mod1 {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
     padding-bottom: 50px;
-}
+} */
 
-.cu1_mod1 {
+/* .cu1_mod1 {
     width: 460px;
     display: flex;
     flex-direction: column;
     gap: 30px;
-}
+} */
 
 .cu1_mod1 h1{
     font-size: 60px;
@@ -81,84 +81,84 @@ body {
 
 /* modulo2 */
 
-.modulo2{
+/* .modulo2{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 25px;
     padding-bottom: 50px;
-}
+} */
 
-.txt_mod2{
+/* .txt_mod2{
     padding-top: 50px;
     display: flex;
     justify-content: center;
     gap: 70px;
     margin-left: 30px;
-}
+} */
 
 .txt1_mod2{
-    width: 520px;
-    height: 140px;
-    font-size: 23px;
+    /* width: 520px;
+    height: 140px; */
+    font-size: 24px;
 }
 
 .txt2_mod2{
-    padding-top: 10px;
+    /* padding-top: 10px;
     width: 480px;
-    height: 140px;
+    height: 140px; */
     color: #FFFFFFB2;
     font-size: 15px;
 }
 
 /* modulo3 */
 
-.modulo3{
-    padding-top: 50px;
+.titulo_mod3{
+    /* padding-top: 50px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; */
     position: relative;
 }
 
-.txt_mod3{
-    width: 640px;
+.txt_mod3 h1{
+    width: 680px;
     height: 140px;
-    font-size: 25px;
+    font-size: 60px;
     text-align: center;
 }
 
 .triangulo1{
     position: absolute;
     z-index: 2;
-    left: 240px;
+    left: 70px;
 }
 
 .triangulo2{
     position: absolute;
     z-index: 1;
-    left: 245px;
+    left: 75px;
     top: 70px;
 }
 
 .add{
     position: absolute;
     z-index: 3;
-    right: 120px;
+    left: 1100px;
     top: 120px;
 }
 
-.rect1_mod3{
+/* .rect1_mod3{
     display: flex;
     gap: 60px;
     margin-top: 30px;
-}
+} */
 
-.rect2_mod3{
+/* .rect2_mod3{
     display: flex;
     gap: 60px;
     margin-top: 20px;
-}
+} */
 
 .cu1_mod3{
     width: 270px;
@@ -174,6 +174,7 @@ body {
 .cu1_mod3 p{
     color: #FFFFFFB2;
 }
+
 
 /* modulo4 */
 
@@ -212,12 +213,16 @@ body {
     right: 35px;
 }
 
+.titulo_mod4{
+    font-size: 40px;
+}
+
 /* modulo5 */
 
-.modulo5{
-    background-color: #1E1E2080;
-    padding-top: 100px;
-    padding-bottom: 150px;
+.container-xxl{
+    /* background-color: #0d0d0e80; */
+    /* padding-top: 100px;
+    padding-bottom: 150px; */
     position: relative;
 }
 
@@ -238,21 +243,21 @@ body {
 .add3{
     position: absolute;
     z-index: 1;
-    top: 5px;
+    top: 40px;
     right: 200px;
 }
 
 .cir3{
     position: absolute;
     z-index: 3;
-    bottom: 70px;
+    bottom: 30px;
     left: 165px;
 }
 
 .cir4{
     position: absolute;
     z-index: 2;
-    bottom: 50px;
+    bottom: 20px;
     left: 180px;
 }
 
